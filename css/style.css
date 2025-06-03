@@ -1,7 +1,7 @@
-@import "/a-v-novikov.github.io/css/fonts.css";
-@import "/a-v-novikov.github.io/css/device-sm.css";
-@import "/a-v-novikov.github.io/css/device-med-large.css";
-@import "/a-v-novikov.github.io/css/window.css";
+@import "fonts.css";
+@import "device-sm.css";
+@import "device-med-large.css";
+@import "window.css";
 
 
 :root {
@@ -16,14 +16,8 @@
 }
 
 body {
-    /* font-family: var(--text-font);
-    color: var(--color-text); */
-
-    background-image: url('/assets/background/cyber-railroad.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: repeat-x;
+    /* /* font-family: var(--text-font);
+    color: var(--color-text);  */
     
     margin: 0;
     overflow-y: scroll;
