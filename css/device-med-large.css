@@ -1,14 +1,16 @@
 @media screen and (min-width: 992px) {
-    .page {
-        width: 72vw;
-        height: 90vh;
-        margin: 5vh auto;
-        display: grid;
-        grid-template-columns: [about-end] 50% auto;
-        grid-template-rows: [about-end] auto;
+    .about-me {
+        display: inline-block;
+        position: absolute;
+
+        width: 15vw;
+        height: fit-content;
     }
 
     .toro {
+        display: inline-block;
+        position: absolute;
+        
         height: 50px;
         width: 50px;
     }
