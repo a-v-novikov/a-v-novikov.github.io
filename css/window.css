@@ -7,6 +7,12 @@
     padding-bottom: 3px;
 }
 
+.window-container:hover {
+  scale: 100.5%;
+  transition-duration: 0.2s;
+  box-shadow: var(--color-drop-shadow) 3px 3px 10px;
+}
+
 /* title bar */
 
 .window-titleBar {
