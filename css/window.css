@@ -58,6 +58,7 @@ background-image: linear-gradient(to right, var(--color-window-blue-dark), var(-
 .window-content {
     width: 100%;
     background-color: white;
+    padding: 1%;
 }
 
     
