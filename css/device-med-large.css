@@ -1,4 +1,9 @@
 @media screen and (min-width: 992px) {
+.page {
+    width: 900px;
+    margin: auto;
+}
+
     .about-me {
         display: inline-block;
         position: absolute;
@@ -9,9 +14,9 @@
     }
 
         .headshot {
-            width: 170px;
+            width: 40%;
             height: auto;
-            border: solid 1px var(--color-window-gray);
+            border: ridge 3px var(--color-window-gray);
         }
 
         .small-text {
