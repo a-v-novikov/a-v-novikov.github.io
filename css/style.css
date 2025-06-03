@@ -29,7 +29,7 @@ body {
 h2 {
     color: white;
     font-family: 'Jersey 10';
-    font-size: 14px;
+    font-size: 17px;
     font-weight: lighter;
     text-shadow: black 2px 1px;
 }
@@ -38,5 +38,5 @@ p {
     margin: 0;
     font-family: 'DotGothic16';
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
 }

@@ -37,7 +37,7 @@ justify-content: space-between;
 align-items: center;
 padding: 0 1%;
 width: 100%;
-height: 20px;
+height: 23px;
 margin: 0;
 background-image: linear-gradient(to right, var(--color-window-blue-dark), var(--color-window-blue-light));
 
@@ -46,8 +46,8 @@ background-image: linear-gradient(to right, var(--color-window-blue-dark), var(-
 .window-title::after {
     content: '';
     display: inline-block;
-    height: 13px;
-    width: 42px;
+    height: 15px;
+    width: 48px;
     margin: auto 0 auto auto;
     background-image: url('/assets/window/icons.png');
     background-size: auto 100%;
