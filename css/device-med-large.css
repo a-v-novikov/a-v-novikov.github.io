@@ -6,35 +6,28 @@
     width: 950px;
     margin: auto;
 }
-
-    .about-me {
+    .about-me, .toro, .file-explorer, .webring-box {
         display: inline-block;
         position: absolute;
+    }
+
+    .about-me {
         width: 45%;
         top: 10vh;
     }
 
-    .toro {
-        display: inline-block;
-        position: absolute;
-        height: auto;
-        width: 18%;
+    .toro {width: 18%;
         right: 16%;
         top: 6vh;
     }
 
-    .file-explorer{
-        display: inline-block;
-        position: absolute;
-        width: 50%;
+    .file-explorer{width: 50%;
         top: 6vh;
         right: 0;
         margin-top: 16.5%;
     }
 
     .webring-box {
-        display: inline-block;
-        position: absolute;
         width: 37vw;
         width: 20%;
         height: 170px;

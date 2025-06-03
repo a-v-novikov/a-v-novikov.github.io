@@ -57,3 +57,7 @@ p {
     font-size: 12px;
 }
 
+/* FORMATS ==================================================== */
+.drop-shadow {
+    box-shadow: var(--color-window-blue-light) 2px 4px 5px;
+}
