@@ -2,6 +2,7 @@
 @media screen and (min-width: 992px) {
 .page {
     position: relative;
+    height: 100%;
     width: 950px;
     margin: auto;
 }
