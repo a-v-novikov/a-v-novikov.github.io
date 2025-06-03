@@ -34,11 +34,12 @@
     .webring-box {
         display: inline-block;
         position: absolute;
-
         width: 37vw;
-        width: 10vw;
-        height: 10vw;
+        width: 20%;
+        height: 170px;
         background-color: var(--color-window-blue-light);
+        top: 60vh;
+        left: 20%;
     }
 }
 
