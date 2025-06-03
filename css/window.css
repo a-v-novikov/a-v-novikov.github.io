@@ -1,4 +1,5 @@
 .window-container {
+    height: fit-content;
     background-color: var(--color-window-gray);
     border-style: outset;
     border-color: var(--color-window-light-gray) var(--color-window-gray) var(--color-window-gray) var(--color-window-light-gray);
@@ -17,7 +18,7 @@
 .window-titleBar:after {
     display: inline-block;
     width: 100%;
-    height: 10px;
+    height: 6px;
     background-color: var(--color-window-gray);
     content: '';
 }
