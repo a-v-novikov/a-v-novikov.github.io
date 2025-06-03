@@ -1,30 +1,14 @@
 @import "/a-v-novikov.github.io/css/fonts.css";
 @import "/a-v-novikov.github.io/css/device-sm.css";
 @import "/a-v-novikov.github.io/css/device-med-large.css";
+@import "/a-v-novikov.github.io/css/window.css";
+
 
 :root {
-    /*will be replaced with textured image*/
-    --color-page: rgba(35, 35, 35, 0.78);
-    --color-page-opaque: rgba(35, 35, 35, 1);
-    --color-border: #010101;
-
-    --color-h1: #B4C5BE;
-    --color-text: #A1A1A1;
-    --color-med-gray: #75807b;
-    --color-dark-gray: #364542;
-
-    --page-width: 950px;
-    --border-width: 3px;
-    --border-thin-width: 2px;
-
-    --title-font: "Jacquard 24";
-    --text-font: "DotGothic16";
-
-    --body-font-size: 0.8rem;
-    --small-font-size: 0.7rem;
-
-    scrollbar-width: thin;
-    scrollbar-color: var(--color-dark-gray) var(--color-border);
+    --color-text: black;
+    --color-title: white;
+    --color-window-gray: #C0BFC0;
+    --color-window-blue: #000099;
 }
 
 *{
@@ -32,8 +16,8 @@
 }
 
 body {
-    font-family: var(--text-font);
-    color: var(--color-text);
+    /* font-family: var(--text-font);
+    color: var(--color-text); */
 
     background-image: url('/assets/background/cyber-railroad.png');
     background-size: cover;
@@ -44,3 +28,4 @@ body {
     margin: 0;
     overflow-y: scroll;
 }
+
