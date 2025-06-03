@@ -2,7 +2,7 @@
     height: fit-content;
     background-color: var(--color-window-gray);
     border-style: outset;
-    border-color: var(--color-window-light-gray) var(--color-window-gray) var(--color-window-gray) var(--color-window-light-gray);
+    border-color: var(--color-window-gray-light) var(--color-window-gray) var(--color-window-gray) var(--color-window-gray-light);
     border-width: 2px;
     padding-bottom: 3px;
 }
@@ -26,7 +26,7 @@
 /* title and content borders */
 .window-title, .window-content {
     border-style: inset;
-    border-color: var(--color-window-gray) var(--color-window-light-gray) var(--color-window-light-gray) var(--color-window-gray);
+    border-color: var(--color-window-gray) var(--color-window-gray-light) var(--color-window-gray-light) var(--color-window-gray);
     border-width: 2px;
 }
 
