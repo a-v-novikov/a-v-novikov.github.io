@@ -20,7 +20,7 @@
         content: '';
     }
 
-    .window-title, .window-container {
+    .window-title, .window-content {
         border-style: inset;
         border-color: var(--color-window-gray);
         border-width: 2px;
