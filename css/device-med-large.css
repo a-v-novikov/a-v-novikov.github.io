@@ -6,7 +6,7 @@
 
     .about-me {
         display: inline-block;
-        position: absolute;
+        position: relative;
         width: 37vw;
         
         top: 10vh;
@@ -29,7 +29,7 @@
 
     .toro {
         display: inline-block;
-        position: absolute;
+        position: relative;
 
         height: 50px;
         width: auto;
@@ -37,7 +37,7 @@
 
     .file-explorer{
         display: inline-block;
-        position: absolute;
+        position: relative;
         width: 37vw;
         
         top: 10vh;
@@ -46,7 +46,7 @@
 
     .webring-box {
         display: inline-block;
-        position: absolute;
+        position: relative;
 
         width: 37vw;
         width: 10vw;
