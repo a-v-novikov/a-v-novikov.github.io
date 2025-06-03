@@ -19,6 +19,6 @@
         position: absolute;
 
         height: 50px;
-        height: auto;
+        width: auto;
     }
 }
