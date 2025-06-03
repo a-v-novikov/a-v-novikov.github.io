@@ -1,20 +1,21 @@
 /* LARGE DISPLAYS =============================================== */
 @media screen and (min-width: 992px) {
 .page {
+    position: relative;
     width: 950px;
     margin: auto;
 }
 
     .about-me {
         display: inline-block;
-        position: relative;
+        position: absolute;
         width: 45%;
         top: 10vh;
     }
 
     .toro {
         display: inline-block;
-        position: relative;
+        position: absolute;
 
         height: 50px;
         width: auto;
@@ -22,7 +23,7 @@
 
     .file-explorer{
         display: inline-block;
-        position: relative;
+        position: absolute;
         width: 50%;
         top: 27vh;
         right: 0;
@@ -30,7 +31,7 @@
 
     .webring-box {
         display: inline-block;
-        position: relative;
+        position: absolute;
 
         width: 37vw;
         width: 10vw;
