@@ -60,5 +60,5 @@ p {
 
 /* FORMATS ==================================================== */
 .drop-shadow {
-    box-shadow: var(--color-window-blue-light) 2px 4px 5px;
+    box-shadow: var(--color-drop-shadow) 2px 4px 5px;
 }
