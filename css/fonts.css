@@ -1,3 +1,13 @@
+/* SANS SERIF ======================================= */
+.arimo-h2 {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* PIXEL FONTS ==================================== */
 .coral-pixels-regular {
   font-family: "Coral Pixels", serif;
   font-weight: 400;
@@ -6,30 +16,6 @@
 
 .dotgothic16-regular {
   font-family: "DotGothic16", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.gaegu-regular {
-  font-family: "Gaegu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.gamja-flower-regular {
-  font-family: "Gamja Flower", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.jacquard-12-regular {
-  font-family: "Jacquard 12", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.jacquard-24-regular {
-  font-family: "Jacquard 24", system-ui;
   font-weight: 400;
   font-style: normal;
 }
@@ -53,6 +39,14 @@
   font-style: normal;
 }
 
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* SERIF ======================================== */
+
 .newsreader-regular {
   font-family: "Newsreader", serif;
   font-optical-sizing: auto;
@@ -60,8 +54,14 @@
   font-style: normal;
 }
 
-.vt323-regular {
-  font-family: "VT323", monospace;
-  font-weight: 200;
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jacquard-24-regular {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
   font-style: normal;
 }
