@@ -1,55 +1,60 @@
 .window-container {
     background-color: var(--color-window-gray);
-    border-color: var(--color-window-gray);
-    border-width: 2px;
     border-style: outset;
+    border-color: var(--color-window-light-gray) var(--color-window-gray) var(--color-window-gray) var(--color-window-light-gray);
+    border-width: 2px;
     padding: 2px;
 }
 
-    .window-titleBar {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+/* title bar */
 
-    .window-titleBar:after {
-        display: inline-block;
-        width: 100%;
-        height: 10px;
-        background-color: var(--color-window-gray);
-        content: '';
-    }
+.window-titleBar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
-    .window-title, .window-content {
-        border-style: inset;
-        border-color: var(--color-window-gray);
-        border-width: 2px;
-    }
+.window-titleBar:after {
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background-color: var(--color-window-gray);
+    content: '';
+}
 
-    .window-title {
-        width: 100%;
-        height: 20px;
-        margin: 0;
-        padding-left: 2%;
-        background-image: linear-gradient(to right, var(--color-window-blue-light), var(--color-window-blue-light));
-        
-    }
+/* title and content borders */
+.window-title, .window-content {
+    border-style: inset;
+    border-color: var(--color-window-gray) var(--color-window-light-gray) var(--color-window-light-gray) var(--color-window-gray);
+    border-width: 2px;
+}
 
-        .window-title::after {
-            content: '';
-            display: inline-block;
-            height: 80%;
-            width: 60px;
-            margin: auto 0 auto auto;
-            background-image: url('/assets/window/icons.png');
-            background-size: auto 100%;
-            background-position: right center;
-            background-repeat: no-repeat;
-        }
+/* title  */
+.window-title {
+width: 100%;
+height: 20px;
+margin: 0;
+padding-left: 2%;
+background-image: linear-gradient(to right, var(--color-window-blue-dark), var(--color-window-blue-light));
 
-    .window-content {
-        width: 100%;
-        background-color: white;
-    }
+}
+
+.window-title::after {
+    content: '';
+    display: inline-block;
+    height: 80%;
+    width: 60px;
+    margin: auto 0 auto auto;
+    background-image: url('/assets/window/icons.png');
+    background-size: auto 100%;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+/* content */
+.window-content {
+    width: 100%;
+    background-color: white;
+}
 
     
