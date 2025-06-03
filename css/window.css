@@ -31,12 +31,21 @@
         height: 20px;
         margin: 0;
         padding-left: 2%;
-        background-color: var(--color-window-blue);
-        background-image: url('/assets/window/icons.png');
-        background-size: auto 80%;
-        background-position: right center;
-        background-repeat: no-repeat;
+        background-image: linear-gradient(to right, var(--color-window-blue-light), var(--color-window-blue-light));
+        
     }
+
+        .window-title::after {
+            content: '';
+            display: inline-block;
+            height: 80%;
+            width: 60px;
+            margin: auto 0 auto auto;
+            background-image: url('/assets/window/icons.png');
+            background-size: auto 100%;
+            background-position: right center;
+            background-repeat: no-repeat;
+        }
 
     .window-contentBox {
         width: 100%;
