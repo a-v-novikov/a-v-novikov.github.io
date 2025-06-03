@@ -2,16 +2,23 @@
     .about-me {
         display: inline-block;
         position: absolute;
-
-        width: 15vw;
-        height: fit-content;
+        width: 400px;
+        
+        top: 10vh;
+        left: 20vw;
     }
+
+        .headshot {
+            width: 100px;
+            height: auto;
+            border: solid 1px var(--color-window-gray);
+        }
 
     .toro {
         display: inline-block;
         position: absolute;
-        
+
         height: 50px;
-        width: 50px;
+        height: auto;
     }
 }
