@@ -16,7 +16,9 @@
         top: 10vh;
     }
 
-    .toro {width: 18%;
+    .toro {
+        height: auto;
+        width: 18%;
         right: 16%;
         top: 6vh;
     }
