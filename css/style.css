@@ -26,6 +26,14 @@ body {
 }
 
 /* TEXT ==================================================== */
+h1 {
+    color: var(--color-window-blue-dark);
+    font-family: 'Jersey 10';
+    font-size: 20px;
+    font-weight: lighter;
+    text-shadow: black 2px 1px;
+}
+
 h2 {
     color: white;
     font-family: 'Jersey 10';

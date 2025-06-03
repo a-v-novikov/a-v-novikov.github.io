@@ -16,17 +16,19 @@
     .toro {
         display: inline-block;
         position: absolute;
-
-        height: 50px;
-        width: auto;
+        height: auto;
+        width: 18%;
+        right: 16%;
+        top: 6vh;
     }
 
     .file-explorer{
         display: inline-block;
         position: absolute;
         width: 50%;
-        top: 27vh;
+        top: 6vh;
         right: 0;
+        margin-top: 16.5%;
     }
 
     .webring-box {
@@ -48,11 +50,14 @@
 }
 
 .small-text {
+    text-align: center;
+    white-space: pre-line;
     width: 65%;
     padding: 3%;
 }
 
 .paragraph {
+    white-space: pre-line;
     width: 100%;
-    padding: 0 3% 3% 3%;
+    padding: 2% 3% 3% 3%;
 }
