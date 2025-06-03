@@ -1,31 +1,16 @@
+/* LARGE DISPLAYS =============================================== */
 @media screen and (min-width: 992px) {
 .page {
-    width: 900px;
+    width: 950px;
     margin: auto;
 }
 
     .about-me {
         display: inline-block;
         position: relative;
-        width: 37vw;
-        
+        width: 45%;
         top: 10vh;
-        left: 20vw;
     }
-
-        .headshot {
-            width: 40%;
-            height: auto;
-            border: ridge 3px var(--color-window-gray);
-        }
-
-        .small-text {
-            width: 40%;
-        }
-
-        .paragraph {
-            width: 80%;
-        }
 
     .toro {
         display: inline-block;
@@ -38,10 +23,9 @@
     .file-explorer{
         display: inline-block;
         position: relative;
-        width: 37vw;
-        
-        top: 10vh;
-        left: 20vw;
+        width: 50%;
+        top: 27vh;
+        right: 0;
     }
 
     .webring-box {
@@ -53,4 +37,21 @@
         height: 10vw;
         background-color: var(--color-window-blue-light);
     }
+}
+
+/* CONSTANTS ===================================================== */
+
+.headshot {
+    width: 35%;
+    border: ridge 3px var(--color-window-gray);
+}
+
+.small-text {
+    width: 65%;
+    padding: 3%;
+}
+
+.paragraph {
+    width: 100%;
+    padding: 0 3% 3% 3%;
 }
