@@ -2,16 +2,24 @@
     .about-me {
         display: inline-block;
         position: absolute;
-        width: 400px;
+        width: 37vw;
         
         top: 10vh;
         left: 20vw;
     }
 
         .headshot {
-            width: 100px;
+            width: 170px;
             height: auto;
             border: solid 1px var(--color-window-gray);
+        }
+
+        .small-text {
+            width: 40%;
+        }
+
+        .paragraph {
+            width: 80%;
         }
 
     .toro {
@@ -20,5 +28,24 @@
 
         height: 50px;
         width: auto;
+    }
+
+    .file-explorer{
+        display: inline-block;
+        position: absolute;
+        width: 37vw;
+        
+        top: 10vh;
+        left: 20vw;
+    }
+
+    .webring-box {
+        display: inline-block;
+        position: absolute;
+
+        width: 37vw;
+        width: 10vw;
+        height: 10vw;
+        background-color: var(--color-window-light-blue);
     }
 }
