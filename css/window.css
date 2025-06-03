@@ -12,7 +12,7 @@
         background-color: var(--color-window-blue);
         background-image: url('/a-v-novikov.github.io/assets/window/icons.png');
         background-size: auto 100%;
-        background-position: middle right;
+        background-position: right;
     }
 
     .window-titleBar:after {
