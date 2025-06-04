@@ -1,0 +1,5 @@
+.toro-head, .toro-arm-L, .toro-arm-R, .toro-torso, .toro-shoulder {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
