@@ -1,3 +1,60 @@
+@media screen and (min-width: 992px) { 
+    @keyframes toro-rotate {
+        0% { transform: rotate(0); }
+        50% { transform: rotate(0.02turn); }        
+        100% { transform: rotate(0); }
+    }
+
+    @keyframes toro-head-follow {
+        0% { transform: rotate(-0.0025turn); }
+        50% { transform: rotate(0.02turn); }
+        100% { transform: rotate(-0.0025turn); }
+    }
+
+    @keyframes toro-arm-L-follow {
+        0% { transform: rotate(-0.03turn ); }
+        50% { transform: rotate(0.04turn); }
+        100% { transform: rotate(-0.03turn); }
+    }
+
+    @keyframes toro-arm-R-follow {
+        0% { transform: rotate(-0.01turn); }
+        50% { transform: rotate(0.01turn); }
+        100% { transform: rotate(-0.01turn); }
+    }
+
+    .toro {
+        transform-origin: bottom center;
+        animation-name: toro-rotate;
+    }
+    .toro-arm-L { 
+        transform-origin: 58% 75%;
+        animation-name: toro-arm-L-follow;
+        animation-delay: calc(2s - var(--toro-anim-duration));
+     }
+    .toro-head { 
+        transform-origin: 50% 70%;
+        animation-name: toro-head-follow;
+        animation-delay: calc(1s - var(--toro-anim-duration));
+    }
+    .toro-arm-R {
+        transform-origin: 29% 96%;
+        animation-name: toro-arm-R-follow;
+        animation-delay: calc(1.5s - var(--toro-anim-duration));
+    }  
+    .toro, .toro-head, .toro-arm-L, .toro-arm-R {
+        animation-duration: var(--toro-anim-duration);
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+    }
+}
+
+.toro-shoulder, .toro-arm-L { z-index: -4; }
+.toro-torso { z-index: -3; }
+.toro-head { z-index: -2; }
+.toro-arm-R {z-index: -1; }
+
+
 .toro-head, .toro-arm-L, .toro-arm-R, .toro-torso, .toro-shoulder {
     position: absolute;
     width: 100%;

@@ -12,47 +12,51 @@
 
     <body style="visibility: hidden;">
         <div class="page">
-            <!-- About-me -->
-            <main id="about-me" class="window-container about-me drop-shadow">
-                <div class="window-titleBar">
-                    <h2 class="window-title">About Me</h2>
-                </div>
-                <div class="window-content">
-                    <img class="headshot" src="/assets/index/headshot.jpg" width="100%" height="100%">
-                    <div class="small-text">
-                        <h1>sasha novikov</h1>
-                        <p>"how hard could it be to write my own website?"</p>
+            <section class="column" id="colLeft">
+                <!-- About-me -->
+                <main id="about-me" class="window-container about-me drop-shadow">
+                    <div class="window-titleBar">
+                        <h2 class="window-title">About Me</h2>
                     </div>
-                    <p class="paragraph">
-                        Nice to meet you! I'm a 3rd-year computer science student at the university of Waterloo. My interests include web development, game development, and cybersecurity.
+                    <div class="window-content">
+                        <img class="headshot" src="/assets/index/headshot.jpg" width="100%" height="100%">
+                        <div class="small-text">
+                            <h1>sasha novikov</h1>
+                            <p>"how hard could it be to write my own website?"</p>
+                        </div>
+                        <p class="paragraph">
+                            Nice to meet you! I'm a 3rd-year computer science student at the university of Waterloo. My interests include web development, game development, and cybersecurity.
 
-                        In my spare time I make art, and am hoping to complete a fine art studio minor degree. 
-                    </p>
+                            In my spare time I make art, and am hoping to complete a fine art studio minor degree. 
+                        </p>
+                    </div>
+                </main>
+
+                 <!-- Webring-box -->
+                <section class="webring-box  drop-shadow"></section>
+            </section>
+
+            <section class="column" id="colRight">
+                <!-- Toro image -->
+                <div class="toro">
+                    <img class="toro-shoulder" src="/assets/toro/animation/shoulder.PNG" width="100%" height="100%">
+                    <img class="toro-arm-L" src="/assets/toro/animation/arm-L.PNG" width="100%" height="100%">
+                    <img class="toro-arm-R" src="/assets/toro/animation/arm-R.PNG" width="100%" height="100%">
+                    <img class="toro-torso" src="/assets/toro/animation/torso.PNG" width="100%" height="100%">
+                    <img class="toro-head" src="/assets/toro//animation/head.PNG" width="100%" height="100%">
                 </div>
-            </main>
 
-            <!-- Toro image -->
-            <div class="toro">
-                <img class="toro-shoulder" src="/assets/toro/animation/shoulder.PNG" width="100%" height="100%">
-                <img class="toro-arm-L" src="/assets/toro/animation/arm-L.PNG" width="100%" height="100%">
-                <img class="toro-arm-R" src="/assets/toro/animation/arm-R.PNG" width="100%" height="100%">
-                <img class="toro-torso" src="/assets/toro/animation/torso.PNG" width="100%" height="100%">
-                <img class="toro-head" src="/assets/toro//animation/head.PNG" width="100%" height="100%">
-            </div>
-
-            <!-- File-explorer -->
-            <main id="file-explorer" class="window-container file-explorer drop-shadow">
-                <div class="window-titleBar">
-                    <h2 class="window-title">Explore</h2>
-                </div>
-                <div class="window-content">
-                    <p>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br></p>
-                </div>
-            </main>
-
-            <!-- Webring-box -->
-            <section class="webring-box  drop-shadow"></section>
-
+                <!-- File-explorer -->
+                <main id="file-explorer" class="window-container file-explorer drop-shadow">
+                    <div class="window-titleBar">
+                        <h2 class="window-title">Explore</h2>
+                    </div>
+                    <div class="window-content">
+                        <p>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br>e<br></p>
+                    </div>
+                </main>
+            </section>
+           
             <!-- Body visibility for those with JS scripts turned off -->
             <noscript><style>body { visibility: visible; }</style></noscript>
         </div>
