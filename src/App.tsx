@@ -2,6 +2,7 @@ import { render } from 'preact'
 import { Header } from './common/Header.tsx';
 import { Footer } from './common/Footer.tsx';
 import { Content } from './content/Content.tsx';
+import './style.css'
 
 function App() {
   return (
