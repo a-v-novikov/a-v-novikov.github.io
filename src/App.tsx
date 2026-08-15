@@ -1,7 +1,7 @@
 import { render } from 'preact'
-import { Header } from './common/Header';
-import { Footer } from './common/Footer';
-import { Content } from './content/Content';
+import { Header } from './common/Header.tsx';
+import { Footer } from './common/Footer.tsx';
+import { Content } from './content/Content.tsx';
 
 function App() {
   return (

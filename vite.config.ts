@@ -5,6 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [tailwindcss(), preact()],
-  base: 'a-v-novikov.github.io',
+  base: '/a-v-novikov.github.io/',
 })
 

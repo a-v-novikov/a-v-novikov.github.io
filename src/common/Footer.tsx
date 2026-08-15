@@ -1,4 +1,3 @@
-
 export function Footer() {
   return (
     <footer class="h-12 font-(family-name:--font-luxrom)">
