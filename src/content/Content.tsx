@@ -1,4 +1,3 @@
-import { render } from 'preact'
 import { WIP } from './wip/WIP';
 
 export function Content() {
