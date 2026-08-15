@@ -5,9 +5,25 @@
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link href="/src/style.css" rel="stylesheet">
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/home/main.tsx"></script>
+    <div id="root" class="h-full bg-(--dark-2)"></div>
+    <script type="module" src="/src/App.tsx"></script>
+
+    <noscript>
+      <style type="text/css">
+          #root {display:none;}
+      </style>
+      <h1 class="h-full p-6 text-xl">
+        Looks like your browser has Javascript disabled.
+      </h1>
+      <p>
+        Unfortunately, that's required for this site.
+      </p>
+      <p>
+        I'm still working on bringing the content to you for now, so check back later. Sorry about the inconvenience!
+      </p>
+    </noscript>
   </body>
 </html>

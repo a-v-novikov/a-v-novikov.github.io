@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* HTML BODY grow to fill */
+html, body {
+    @apply h-full
+}
+
+:root {
+    --dark-2: rgb(38, 45, 82);
+    --med: rgb(0, 91, 132);
+    --light: rgb(251, 252, 253);
+    
+    --primary-light: color-mix(in oklch, var(--primary) 50%, white);
+    --primary-dark: color-mix(in oklch, var(--primary) 80%, black);
+
+}
+    
+    /* THEME
+@theme {
+  --color-primary: magenta;
+  --color-primary-light: color-mix(
+    in oklch,
+    var(--color-primary) 50%,
+    white
+  );
+  --color-primary-dark: color-mix(
+    in oklch,
+    var(--color-primary) 80%,
+    black
+  );
+} 
+ */
