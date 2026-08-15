@@ -10,6 +10,10 @@ html, body {
     --med: rgb(0, 91, 132);
     --light: rgb(251, 252, 253);
     
+    /* font-family: "Luxurious Roman", serif; */
+    --font-luxrom: "Luxurious Roman", serif;
+    --font-imfellsc: "IM Fell English SC", serif;
+
     --primary-light: color-mix(in oklch, var(--primary) 50%, white);
     --primary-dark: color-mix(in oklch, var(--primary) 80%, black);
 
