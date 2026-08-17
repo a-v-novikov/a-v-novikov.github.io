@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+    <title>Home</title>
+  </head>
+  <body>
+    <div id="root" class="h-full bg-(--dark-2)">
+      <div id="page" class="p-6 h-full flex bg-[url(/assets/img/branch.svg)] bg-top bg-no-repeat bg-size-[100%_auto] justify-center">
+        <div id="page-contentsize" class="h-full w-[80%] flex flex-col">
+          <!-- HEADER -->
+          <header class="h-15 w-full flex justify-between">
+            <a href="/"><button><h2>home</h2></button></a>
+            <a href="/pages/projects/"><button><h2>projects</h2></button></a>
+            <a href="/pages/blog/"><button><h2>blog</h2></button></a>
+            <a href="/pages/about/"><button><h2>about</h2></button></a>
+          </header>
+          <!-- END HEADER -->
+
+          <!-- CONTENT -->
+          <main class="flex-1">
+           {{ content }}
+          </main>
+          <!-- END CONTENT -->
+        
+          <!-- FOOTER -->
+          <footer class="h-12">
+            <div class="[&_span]:hidden flex justify-center">
+              <h2>contact: dnovikov&thinsp;</h2>
+              <span>email[at]</span>
+              <h2>[at]&thinsp;</h2>
+              <span>intake.</span>
+              <h2>uwaterloo&thinsp;</h2>
+              <span>contact</span>
+              <h2>[dot]&thinsp;</h2>
+              <span>expand.</span>
+              <h2>ca</h2>
+            </div>
+          </footer>
+          <!-- END FOOTER -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
