@@ -29,6 +29,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Site settings
+url: 'https://a-v-novikov.github.io'
+baseurl: 'personal-site'
+
 # Build settings
 source: docs
 plugins:
