@@ -1,8 +1,11 @@
+# .github/workflows/github-pages.yml
+
+name: Build and deploy this site to GitHub Pages
+
 on:
-   push:
-     branches: [ master ]
-   pull_request:
-     branches: [ master ]
+  push:
+    branches:
+      - main
 
 jobs:
    build:
