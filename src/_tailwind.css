@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {    
+    /* TEXT */
+    * {
+      @apply box-border text-lg text-(--color-lgt-mlg-60) font-(family-name:--font-avlibre);
+    }
+
+    a, button {
+     @apply  [&>*]:hover:text-(--color-lgt) hover:text-(--color-lgt);
+    }
+
+    h1 {
+      @apply font-(family-name:--font-luxrom) text-(--color-lgt-mlg-80) font-bold;  /*font-bold bg-radial from-(--color-lgt) to-(--color-lgt-mlg-60) bg-clip-text text-transparent;*/
+      text-shadow: 0px 0px 5px var(--color-mdr);
+    }
+
+    h2 {
+      @apply font-(family-name:--font-luxrom) text-(--color-lgt-mlg-60) font-bold;  /*font-bold bg-radial from-(--color-lgt) to-(--color-lgt-mlg-60) bg-clip-text text-transparent;*/
+      text-shadow: 0px 0px 5px var(--color-mdr);
+    }
+
+    h3 {
+      @apply font-(family-name:--font-luxrom) text-(--color-lgt-mlg-60) font-bold;  /*font-bold bg-radial from-(--color-lgt) to-(--color-lgt-mlg-60) bg-clip-text text-transparent;*/
+      text-shadow: 0px 0px 5px var(--color-mdr);
+    }
+
+    /* ------------- RESPONSIVE SIZING ------------------ */
+    h1 {
+      @apply max-md:text-xl;
+      @apply min-md:text-2xl;
+      @apply min-xl:text-3xl;
+    }
+    h2 {
+      @apply max-md:text-lg;
+      @apply min-md:text-xl;
+      @apply min-xl:text-2xl;
+    }
+    h3 {
+      @apply max-md:text-base;
+      @apply min-md:text-lg;
+      @apply min-xl:text-xl;
+    }
+    div#page-contentsize {
+      @apply max-md:w-full max-md:p-5 max-md:gap-5;
+      @apply min-md:w-[80%] min-md:min-w-[768px] min-md:p-10 min-md:gap-5;
+      @apply min-xl:w-[60%] min-xl:min-w-[1023px] min-xl:p-17 min-xl:gap-8;
+    }
+
+    /* Idiot branch sizing because it doesn't work otherwise */
+    div#page {
+      @apply bg-cover max-md:bg-fixed;
+    }
+}
+
+@theme {
+  /* THEME */
+  --color-drk: rgb(22, 27, 49);
+  --color-mdr: rgb(38, 45, 82);
+  --color-mlg: rgb(0, 91, 132);
+  --color-lgt: rgb(251, 252, 253);
+  
+  --color-lgt-mlg-40: color-mix(in oklch, var(--color-lgt) 40%, var(--color-mlg));
+  --color-lgt-mlg-60: color-mix(in oklch, var(--color-lgt) 60%, var(--color-mlg));
+  --color-lgt-mlg-80: color-mix(in oklch, var(--color-lgt) 80%, var(--color-mlg));
+
+  /* TEXT */
+  --font-luxrom: "Luxurious Roman", serif;
+  --font-gidrom: "Gideon Roman", serif;
+  --font-imfellsc: "IM Fell English SC", serif;
+  --font-avlibre: "Averia Libre", system-ui;
+
+  /* GRPAHICS */
+  --branch-sz: 100% auto;
+  --animate-spin: spin 20s linear infinite;
+} 
+

@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="max-md:min-h-[100vh] min-md:h-full bg-(--color-mdr)" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=IM+Fell+English+SC&family=Luxurious+Roman&family=Gideon+Roman&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+    <title>{{page.title}}</title>
+  </head>
+  <body class="max-md:min-h-[100vh] min-md:h-full bg-(--color-mdr)">
+    <div id="page" class="max-md:min-h-[100vh] min-md:h-full flex bg-size-[auto_100%] bg-[url(/assets/img/branch.svg)] bg-top bg-no-repeat justify-center">
+      <div id="page-contentsize" class="max-md:min-h-[100vh] min-md:h-full flex flex-col">
+        <!-- HEADER -->
+        <header class="w-full h-(--text-3xl--line-height) flex shrink-0 justify-between">
+          <a href="/"><button><h2>home</h2></button></a>
+          <!-- <a href="/pages/cv/" class="md:hidden"><button><h2>cv</h2></button></a>
+          <a href="/pages/cv/" class="max-md:hidden"><button><h2>curriculum vitae</h2></button></a> -->
+          <a href="/pages/work/"><button><h2>work</h2></button></a>
+          <a href="/pages/blog/"><button><h2>blog</h2></button></a>
+          <a href="/pages/about/"><button><h2>about</h2></button></a>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- CONTENT -->
+        {{content}}
+        <!-- END CONTENT -->
+      
+        <!-- FOOTER -->
+        <footer class="">
+          <div class="flex justify-center">
+            <h3 class="[&_span]:hidden">
+              dnovikov
+              <span>email[at]</span>
+              [at]
+              <span>intake.</span>
+              uwaterloo
+              <span>contact</span>
+              [dot]
+              <span>expand.</span>
+              ca
+            </h3>
+          </div>
+        </footer>
+        <!-- END FOOTER -->
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,12 +1,13 @@
+source: src
 destination: _site
-title: Cassidoo's blog template (in jekyll)
-tagline: A blog template for you!
-permalink: /post/:title/
-excerpt_separator: <!--more-->
+# title: Cassidoo's blog template (in jekyll)
+# tagline: A blog template for you!
+# permalink: /post/:title/
+# excerpt_separator: <!--more-->
 # avatar: /assets/images/profile_pic.jpg
 
 tailwindcss:
-  css_path: "./_tailwind.css" # this is the default location
+  css_path: "./src/_tailwind.css" # this is the default location
 
 pagination:
   enabled: true
@@ -20,13 +21,13 @@ tag_page_layout: tag_page
 tag_page_dir: tags
 
 # jekyll-seo-tag configuration
-author: Jekyll Blahg
-url: https://jekyll-blahg.pages.dev
-logo: /assets/images/home-blog-card.png
-social:
-  name: Jekyll Blahg
-  links:
-    - https://github.com/vormwald/jekyll-blahg
+author: Alexander Novikov
+# url: https://jekyll-blahg.pages.dev
+# logo: /assets/images/home-blog-card.png
+# social:
+#   name: Jekyll Blahg
+#   links:
+#     - https://github.com/vormwald/jekyll-blahg
 
 google_site_verification:
 
@@ -51,3 +52,4 @@ exclude:
   - README.md
   - bin
   - LICENSE
+  - todo.txt
